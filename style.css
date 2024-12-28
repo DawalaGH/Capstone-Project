@@ -114,15 +114,15 @@ header {
 
 /* CSS for Contact Section */
 
-#contact-section {
-  background-color: #f1f1f1;
+#contact {
+  background-color: white;
 
   padding: 2rem 0;
 
   text-align: center;
 }
 
-#contact-section h2 {
+#contact h2 {
   font-size: 2rem;
 
   font-weight: bold;
@@ -132,25 +132,25 @@ header {
   color: #343a40;
 }
 
-#contact-section p {
+#contact p {
   font-size: 1rem;
 
-  color: #6c757d;
+  color: grey;
 
   margin-bottom: 1.5rem;
 }
 
-#contact-section ul {
-  list-style: none;
+#contact ul {
+  list-style: armenian;
 
-  padding: 0;
+  padding: 5px;
 }
 
-#contact-section li {
+#contact li {
   margin: 0.5rem 0;
 }
 
-#contact-section a {
+#contact a {
   color: #007bff;
 
   text-decoration: none;
@@ -158,7 +158,7 @@ header {
   font-size: 1rem;
 }
 
-#contact-section a:hover {
+.list-unstyled {
   text-decoration: underline;
 }
 
