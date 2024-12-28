@@ -60,5 +60,145 @@ header {
 .logo {
   display: flex;
   margin: 0;
+  padding: 5px;
+}
+
+#gallery {
+  align-items: center;
+  text-align: center;
+  background-color: burlywood;
+  border-radius: 20px;
+  padding-top: 10px;
+}
+
+#gallery {
+  background-color: green;
+  padding: 0%;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+  height: 150px;
+  width: 200px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: chartreuse;
+}
+
+#button {
+  background-color: rgb(85, 155, 52);
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+#button:hover {
+  background-color: rgb(210, 30, 30);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  background-color: chocolate;
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+}
+
+/* CSS for Contact Section */
+
+#contact-section {
+  background-color: #f1f1f1;
+
+  padding: 2rem 0;
+
+  text-align: center;
+}
+
+#contact-section h2 {
+  font-size: 2rem;
+
+  font-weight: bold;
+
+  margin-bottom: 1rem;
+
+  color: #343a40;
+}
+
+#contact-section p {
+  font-size: 1rem;
+
+  color: #6c757d;
+
+  margin-bottom: 1.5rem;
+}
+
+#contact-section ul {
+  list-style: none;
+
   padding: 0;
+}
+
+#contact-section li {
+  margin: 0.5rem 0;
+}
+
+#contact-section a {
+  color: #007bff;
+
+  text-decoration: none;
+
+  font-size: 1rem;
+}
+
+#contact-section a:hover {
+  text-decoration: underline;
+}
+
+/* CSS for Footer */
+
+footer {
+  background-color: #343a40;
+
+  color: #ffffff;
+
+  text-align: center;
+
+  padding: 1rem 0;
+
+  font-size: 0.875rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+#button1 {
+  background-color: rgb(85, 155, 52);
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+#button1:hover {
+  background-color: rgb(210, 30, 30);
+}
+
+#button2 {
+  background-color: rgb(85, 155, 52);
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+#button2:hover {
+  background-color: rgb(210, 30, 30);
+}
+
+#contact {
 }
