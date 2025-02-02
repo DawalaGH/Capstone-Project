@@ -203,38 +203,3 @@ footer p {
 #button2:hover {
   background-color: rgb(210, 30, 30);
 }
-
-#about p {
-  font-weight: bold;
-  font-size: medium;
-  color: deep black;
-}
-
-.display-4 {
-  font-weight: bolder;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: deeppink;
-}
-
-.text-decoration-none {
-  display: flex;
-  font-weight: bold;
-}
-
-.social-media-icons {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 20px;
-}
-
-.social-media-icons a {
-  text-decoration: none;
-  color: #333;
-  font-size: 24px;
-  transition: color 0.3s ease;
-}
-
-.social-media-icons a:hover {
-  color: #0077b5; /* LinkedIn color as an example */
-}
